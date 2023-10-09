@@ -23,7 +23,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: build
-          path: " "
+          path: sum_integers.py
 
   run:
     runs-on: ubuntu-latest
