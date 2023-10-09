@@ -34,8 +34,8 @@ jobs:
 
       - name: Download Build Artifact
         uses: actions/download-artifact@v2
-        with:
-          name: build-artifact
+      - name: list file
+        run: ls -R
 
       - name: Run Program
         run: |
